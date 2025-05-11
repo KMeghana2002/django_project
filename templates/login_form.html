@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Forms</title>
+    <style>
+        body{
+            background-image:linear-gradient(45deg,rgb(141, 188, 141),rgb(18, 43, 23))
+        }
+        .container
+        {
+            background-color: black;
+            text-align: center;
+            width:500px;
+            margin:100px auto;
+            padding:50px;
+            border-radius: 20px;
+            
+        }
+        button
+        {
+            padding:10px 20px;
+            background-color:red;
+            color:white;
+            border-radius: 20px;
+        }
+        
+        .child
+        {
+            margin-top:20px;
+        }
+        label
+        {
+            
+            color:white;
+        }
+        .one{
+            width:210px;
+            border-radius: 20px;
+            padding:10px;
+            margin:10px;
+        }
+        .two
+        {
+            width:500px;
+            border-radius: 20px;
+            padding:5px;
+        }
+        h2
+        {
+            color:white;
+            padding:10px;
+        }
+        .three
+        {
+            width:500px;
+            border-radius:20px;
+        }
+        .ele
+        {
+            text-align: start;
+            
+        }
+        .parent
+        {
+            border:2px solid black;
+            width:700px;
+        }
+    </style>
+</head>
+<body>
+    <forms>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="child">
+                <table>
+                    <tr>
+                        <td><label class="ele">Full name</label></td>
+                        
+                    </tr>
+                </table>
+
+                
+                <table>
+                    <tr>
+                        <td><input class="one" type="text" id="" ></td>
+                        <td><input class="one" type="text" id="" ></td>    
+                    </tr>
+                    
+                </table>
+                <table>
+                    <tr>
+                        <td><label for="">first</label></td>
+                        <td><label for="">last</label></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="child">
+                <table>
+                    <tr>
+                        <td><label class="ele">Email</label></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><input class="two" type="email" id=""></td>
+                    </tr>
+                </table>
+                <div class="child">
+                    <table>
+                        <tr>
+                            <td><label class="ele">Leave us few words</label></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td><textarea class="three"></textarea></td>
+                        </tr>
+                    </table>
+
+
+                </div>
+                
+
+            </div>
+            <div class="child">
+                <button>submit</button>
+
+            </div>
+
+        </div>
+    </forms>
+    
+</body>
+</html>
